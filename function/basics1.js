@@ -21,4 +21,12 @@ function handleArray(getarray){
 
 // console.log(handleArray(arr));
 
- 
+//-----------------------------------------------//
+
+// (...) Rest operator
+
+function addPrice(val1, val2, ...num){   // val1:200, val2:300, and rest all in num
+    return num;
+}
+
+console.log(addPrice(200, 300, 500, 900, 2000));
